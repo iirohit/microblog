@@ -6,10 +6,6 @@ app.config.from_object('config')
 db = SQLAlchemy(app)
 
 
-
-
-
-
 import os
 from flask.ext.login import LoginManager
 from flask.ext.openid import OpenID
